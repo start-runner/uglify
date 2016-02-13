@@ -49,4 +49,4 @@ Task is rely on `[{ path, data, map }]` input and provide the same, see [documen
 
 `uglify(options)`
 
-* `options` – [UglifyJS options](https://github.com/mishoo/UglifyJS2#the-simple-way), `{ compress: true, mangle: true }` by default
+* `options` – [UglifyJS options](https://github.com/mishoo/UglifyJS2#the-simple-way)
