@@ -5,7 +5,6 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/uglify.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/uglify)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/uglify.svg?style=flat-square)](https://codecov.io/github/start-runner/uglify)
 [![deps](https://img.shields.io/gemnasium/start-runner/uglify.svg?style=flat-square)](https://gemnasium.com/start-runner/uglify)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-46bc99.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 [UglifyJS](http://lisperator.net/uglifyjs/) task for [Start](https://github.com/start-runner/start).
 
