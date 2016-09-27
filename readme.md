@@ -1,9 +1,9 @@
 # start-uglify
 
 [![npm](https://img.shields.io/npm/v/start-uglify.svg?style=flat-square)](https://www.npmjs.com/package/start-uglify)
-[![linux build](https://img.shields.io/travis/start-runner/uglify.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/uglify)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/uglify.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/uglify)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/uglify.svg?style=flat-square)](https://codecov.io/github/start-runner/uglify)
+[![linux build](https://img.shields.io/travis/start-runner/uglify/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/uglify)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/uglify/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/uglify)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/uglify/master.svg?style=flat-square)](https://codecov.io/github/start-runner/uglify)
 [![deps](https://img.shields.io/gemnasium/start-runner/uglify.svg?style=flat-square)](https://gemnasium.com/start-runner/uglify)
 
 [UglifyJS](http://lisperator.net/uglifyjs/) task for [Start](https://github.com/start-runner/start).
