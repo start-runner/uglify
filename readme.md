@@ -10,8 +10,10 @@
 
 ## Install
 
-```
-npm i -S start-uglify
+```sh
+npm install --save-dev start-uglify
+# or
+yarn add --dev start-uglify
 ```
 
 ## Usage
@@ -27,19 +29,17 @@ import rename from 'start-rename';
 import uglify from 'start-uglify';
 import write from 'start-write';
 
-export function build() {
-    return start(reporter())(
-        files('build/'),
-        clean(),
-        files('lib/**/*.js'),
-        read(),
-        babel({ sourceMaps: true }),
-        write('build/'),
-        rename(file => file.replace(/\.js$/, '.min.js')),
-        uglify({ outSourceMap: true }),
-        write('build/')
-    );
-}
+export const build = () => start(reporter())(
+  files('build/'),
+  clean(),
+  files('lib/**/*.js'),
+  read(),
+  babel({ sourceMaps: true }),
+  write('build/'),
+  rename(file => file.replace(/\.js$/, '.min.js')),
+  uglify({ outSourceMap: true }),
+  write('build/')
+);
 ```
 
 This task relies on `[{ path, data, map }]` input and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
